@@ -1,4 +1,5 @@
-# Ethereum Ticket Distribution Smart Contract
+# Decentralized Ticket Booking system using blockchain
+## For creatinng other blocks in blockchain, one need to add block, not possibel to host
 Leveraging blockchain's ability to easily validate identity and identify ownership, this smart contract is a simple example of how blockchain can be applied to the ticketing industry. By using the Ethereum blockchain we are able to write a decentralized application that allows the seller to easily validate identities and charge for the tickets. The app allows the buyer to quickly get their ticket and know that it's authentic. 
 
 ## The Stack
