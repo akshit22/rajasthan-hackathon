@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Ticket Booking</title>
+		<style>
+.center {
+   margin-top: 50px;
+    margin-left: 435px;
+    margin-right: 200px;
+    width: 30%;
+    border: 3px solid #ed1b24;
+    padding: 25px;
+    text-align: center;
+}
+</style>
+    </head>
+    <body>
+        <img src="Railwaytitle.jpg" width="1348" height="150">
+        <br>
+		<br>
+		<a href="http://localhost:1234/www/railwaymainpage.html">Back</a>
+		<form action="ticketbooking.php" method="POST">
+             <div class="center">
+			 <table>
+                 <tr>
+                 <td>
+                     <h2>Enter the details</h2>
+                 </td>
+                 </tr>
+<tr>
+<td><label>Train No</label></td>
+<td><input type="text" name="txt1"></td>
+</tr>
+<tr>
+<td><label>Passenger Name</label></td>
+<td><input type="text" name="txt2"></td>
+</tr>
+<tr>
+<td><label>Age</label></td>
+<td><input type="text" name="txt3"></td>
+</tr>
+<tr>
+<td><label>Gender</label></td>
+<td><input type="text" name="txt4"></td>
+</tr>
+<td><label>Date of Journey</label></td>
+<td><input type="date" name="txt5"></td>
+</tr>
+<td><label>Coach Type</label></td>
+<td>
+<br><input type="radio" name="txt6" value="Sleeper">Sleeper 
+<br><input type="radio" name="txt6" value="Third A/C">Third A/C 
+<br><input type="radio" name="txt6" value="Second A/C">Second A/C 
+</td>
+</tr>
+</table>
+<br><input type="submit" name="submit" value="ENTER">
+</div>
+</form>
+
+</body>
+</html>
